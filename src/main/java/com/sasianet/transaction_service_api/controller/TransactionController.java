@@ -27,7 +27,7 @@ public class TransactionController {
     private TransactionService transactionService;
 
     @PostMapping("/savePayment")
-    @Tag(name = "test")
+    @Tag(name = "test2")
 public ResponseEntity<StandardResponse>savePayment(@Valid @RequestBody TransactionRequestDto requestDto){
         String message= null;
         TransactionResponseDto responseDto= new TransactionResponseDto();
